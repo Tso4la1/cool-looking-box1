@@ -4,26 +4,56 @@ html {
 
 /* Your CSS below here */
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
+
 
 p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   width: 200px;
-  height: 200px;
-  margin: auto;
+  height: 180px;
+  /* font-size: 1.125rem; */
+  background-color: linear-gradient(to bottom right, white, rgba(15, 3, 3, 0.591) 30%);
+  /* color: white; */
+  /* text-shadow: 1px 2px 1px black; */
+  border-radius: 7px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translate(0%, 0%);
+}
+
+/*HOW I WORKED OUT MY FONT SIZE TO BE INPUTED WITH "rems" instead of "pixel"
+my default font-size = 16px;
+my new font-size = 18px;
+value in rem = new/default;
+rem = 18/16;
+rem = 1.125;
+*/
+
+div{
+  width: 200px;
+  inline-size: 200px;
+  height: 180px;
+  margin: 10px;
+  padding: 3px;
+  block-size: 180px;
   font-size: 1.125rem;
-  background-color: rgb(185, 9, 10);
-  color: #ffffff;
-  text-shadow: 1px 2px 1px black;
-  border-radius: 15px;
-  border: 1px solid rgb(110, 1, 1);
-  box-shadow: inset 2px 2px 7px #ffffff, inset -3px -3px 5px #000000,
-    2px 2px 5px 0px #000000;
-  margin-top: 150px;
+  background-color: rgb(239, 13, 13);
+  color: white;
+  text-shadow:2px 1px rgb(0, 0, 0) ;
+  border-radius: 12.5px;
+  border: 1px solid rgba(142, 22, 22, 0.897);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 25vh; 
+  box-shadow: 4px 6px 10px black, 2px 2px 2px rgba(250, 242, 242, 0.881) inset, -2px -4px 2px rgba(125, 5, 5, 0.987) inset;
+  
+  
 }
